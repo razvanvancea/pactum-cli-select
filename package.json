@@ -1,0 +1,38 @@
+{
+  "name": "pactum-cli-select",
+  "version": "1.3.3",
+  "main": "pactum-cli-select.js",
+  "scripts": {
+    "prettier:check": "npx prettier --check .",
+    "prettier:fix": "npx prettier --write ."
+  },
+  "keywords": [
+    "cli",
+    "pactum",
+    "api",
+    "tools",
+    "pactumjs"
+  ],
+  "author": "Razvan Vancea",
+  "license": "MIT",
+  "description": "PactumJS interactive CLI prompts to select and run specs or tests",
+  "bin": {
+    "testcafe-cli-select": "index.js"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.1"
+  },
+  "dependencies": {
+    "inquirer": "^12.4.2",
+    "minimist": "^1.2.8",
+    "mocha": "^11.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/razvanvancea/pactum-cli-select.git"
+  },
+  "bugs": {
+    "url": "https://github.com/razvanvancea/pactum-cli-select/issues"
+  },
+  "homepage": "https://github.com/razvanvancea/pactum-cli-select#readme"
+}
